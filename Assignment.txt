@@ -1,0 +1,60 @@
+1. Try to find out use of getPageSource() method.
+2. Open https://www.echotrak.com/Login.aspx?ReturnUrl=%2f and try to login with id, name
+3. Open https://www.echotrak.com/Login.aspx?ReturnUrl=%2f and try to login with className and CssSelector 
+4. Open https://www.facebook.com/ and try to login using xpath also display the error message
+5. Try login and logout on https://practicetestautomation.com/practice-test-login/
+6. Open https://echoecho.com/ then follow the steps => Click on Tutorials => Click on HTML => Click on HTML Forms => Click on Checkbox
+	a. Display the status of all 3 checkboxes(Selected, Enabled, Visible)
+	b. Select the checkbox which are not selected
+	c. Display the status (Selected, Enabled, Visible)
+	https://echoecho.com/htmlforms09.htm
+7. Open https://echoecho.com/htmlforms10.htm
+	a. Display the status of every radio button(Selected, Enabled, Visible)
+	b. Click on every radio button
+	c. Display the status of every radio button(Selected, Enabled, Visible)
+8. Open https://dash.bling-center.com/platform/signIn.html 
+	a. Click on forgot password
+	b. Enter email id
+	c. Click on Reset Password
+	d. Display the messages which in green color
+9. Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+	a. Enter user name as admin
+	b. Enter password as admin123
+	c. Click on Login
+	d. Click on down arrow next to the name (Only if login is success)
+	e. Click on logout
+10. Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+	a. Login with Admin 
+	b. Click on PIM
+	c. Click on + Add button
+	d. Enter First Name 
+	e. Enter Middle Name
+	f. Enter Last Name
+	g. Click on Create Login Details
+	h. Enter User Name
+	i. Enter Password
+	j. Enter Confirm Password
+	k. Click on Save Button
+	l. Logout
+
+	m. Login using data provided in step no h & i
+	n. Display name of employee on logout link
+	o. Click on My Info
+	p. Display the Employee ID
+	q. Logout
+
+11. Open https://www.rediff.com/
+	a. Click on Money
+	b. Click on More Gainers
+	c. Display title of all the headers
+	d. Display total no of rows
+	e. Display any row randomly
+	f. Display list of all the companies (Company name only)
+	g. Read all current price and display the highest price.
+
+12.  Open https://demoqa.com/webtables
+	a. Try to display all header columns
+	b. Click on Add button
+	c. Enter all the data
+	d. Search the name in First Name column
+	e. Click on delete button in the same row

@@ -1,4 +1,4 @@
-package com.seleniumpractice;
+package com.WebDriverDemos;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -15,8 +15,13 @@ public class D11LocateByPartialLinkText {
 		
 		//WebElement adLink = driver.findElement(By.partialLinkText("ertis"));
 		//adLink.click();
-		driver.findElement(By.partialLinkText("Abo")).click();
-
+		driver.findElement(By.partialLinkText("Ad")).click();
+		
+		
+		
+		
+		//String name = "Ankush";
+		//System.out.println("Ankush");
 	}
 
 }

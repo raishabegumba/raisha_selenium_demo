@@ -1,4 +1,4 @@
-package com.seleniumpractice;
+package com.WebDriverDemos;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -21,8 +21,10 @@ public class D07LocateByClassName {
 		
 		//WebElement searchBtn = driver.findElement(By.name("btnK"));
 		//searchBtn.click();
-		driver.findElement(By.className("gLFyf")).sendKeys("raisha begum-");
-		driver.findElement(By.className("gLFyf")).sendKeys(Keys.ENTER);
+		driver.findElement(By.className("gLFyf")).sendKeys("Ankush Vankore");
+		driver.findElement(By.cssSelector("textarea[aria-label=\"Search\"]")).sendKeys(Keys.CONTROL + "A");
+		//driver.findElement(By.className("gLFyf")).sendKeys(Keys.ENTER);
+		//driver.findElement(By.className("gLFyf")).sendKeys(Keys.RETURN);
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.seleniumpractice;
+package com.WebDriverDemos;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -16,7 +16,7 @@ public class D05LocateByName {
 		WebElement emailId = driver.findElement(By.name("email"));
 		//Please find the control on the page whose name is email & store the control 
 		//in emailId object
-		emailId.sendKeys("aSHAMILUTTA.com");
+		emailId.sendKeys("ankushvankore@gmail.com");
 		
 		WebElement password = driver.findElement(By.name("pass"));
 		password.sendKeys("123456789");
